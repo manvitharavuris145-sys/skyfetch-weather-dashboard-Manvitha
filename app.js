@@ -1,8 +1,9 @@
+
 /* ===============================
    WEATHER APP CONSTRUCTOR
 ================================ */
 function WeatherApp(apiKey) {
-    this.apiKey = '12727ac5530fd5bf064ae60803b06fb8';
+    this.apiKey = "12727ac5530fd5bf064ae60803b06fb8";
     this.apiUrl = "https://api.openweathermap.org/data/2.5/weather";
     this.forecastUrl = "https://api.openweathermap.org/data/2.5/forecast";
 
@@ -194,4 +195,4 @@ WeatherApp.prototype.showError = function (message) {
 /* ===============================
    CREATE APP INSTANCE
 ================================ */
-const app = new WeatherApp("07d6052e9362b151efba2f1d75ba59ca");
+const app = new WeatherApp("88ed12598c9df2dd1cb840738b52fb6b");
