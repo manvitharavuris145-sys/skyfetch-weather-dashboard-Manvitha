@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 25px;
 }
 
 .container {
@@ -104,8 +104,8 @@ h1 {
 .spinner {
     width: 50px;
     height: 50px;
-    border: 5px solid #eee;
-    border-top: 5px solid #667eea;
+    border: 5px solid #d8d0d0;
+    border-top: 5px solid #7788d4;
     border-radius: 50%;
     animation: spin 1s linear infinite;
     margin: 0 auto 15px;
